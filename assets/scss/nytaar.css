@@ -34,7 +34,7 @@ header {
   position: relative;
 }
 header h1 {
-  font-size: 30px;
+  font-size: 35px;
   margin: 0 auto;
   padding: 30px 0;
   width: 80%;
@@ -45,10 +45,13 @@ header h1 {
   margin: auto;
   max-width: 700px;
   height: 500px;
-  margin-top: 100px;
+  margin-top: 30px;
   padding: 40px;
 }
-.text h2 {
+.text header {
+  margin-bottom: 40px;
+}
+.text header h2 {
   font-size: 25px;
   text-align: center;
 }
@@ -58,7 +61,7 @@ header h1 {
   font-size: 20px;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 320px) {
   article {
     position: absolute;
     top: 0;
@@ -76,7 +79,7 @@ header h1 {
     position: relative;
   }
   header h1 {
-    font-size: 25px;
+    font-size: 30px;
     margin: 0 auto;
     padding-top: 20px;
     width: 100%;
@@ -87,17 +90,17 @@ header h1 {
     margin: auto;
     max-width: 700px;
     height: 600px;
-    margin-top: 50px;
-    padding: 40px;
+    margin-top: 20px;
+    padding: 40px 5px;
   }
-  .text h2 {
-    font-size: 20px;
+  .text header h2 {
+    font-size: 18px;
     text-align: center;
   }
-  .text p {
+  .text header p {
     color: white;
     line-height: 25px;
-    font-size: 20px;
+    font-size: 18px;
   }
 }
 @keyframes move-twink-back {
@@ -156,7 +159,7 @@ header h1 {
   animation: move-twink-back 200s linear infinite;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 320px) {
   .stars,
 .twinkling {
     position: absolute;
